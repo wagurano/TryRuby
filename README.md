@@ -20,12 +20,29 @@ Japanese translation by _Koji Shimada_ & _Masayoshi Takahashi_
 Russian translation by [_Alexander Nikolaev_](https://github.com/startaper)  
 Ukrainian translation by [_Andrii Palchik_](https://github.com/andriipalchik)  
 Macedonian translation by [_Violeta Pavleska_](https://github.com/violeta-p)  
+Chinese translation by [_Ye Junzhe_](https://github.com/McF4r) & [_Bitfox_](https://github.com/bitfoxtop) & [_Heng Li_](https://github.com/iheng)  
+Turkish translation by [_Ali Rıza Şahin_](https://github.com/ARS-coding)  
+French translation by [_Olivier Lacan_](https://github.com/olivierlacan) & [_Idris TAKERBOUST_](https://github.com/idrista)
 
 Suggestions to improve translations are welcome.
 If you submit a pull request updating a translation please
 only change the files in folder _translations_,
 not the json files in folder _source_.
 These files will be updated automatically by the build/publish task.
+
+## Frontend website
+The TryRuby is kind of unique in a way, that it is a frontend application created
+in Ruby with [Opal](https://opalrb.com/). The source code for this application is
+located in `app` directory.
+
+## Docker
+You can deploy the website using docker by running the following commands:
+```
+# creating the image
+docker build -f Dockerfile . -t tryruby
+# running the image, you can access tryruby on http://localhost:9099
+docker run -p 9099:4567 -d tryruby:latest
+```
 
 ## Preparing
 Clone this repo, and use bundler to get dependencies:
@@ -41,13 +58,13 @@ be present. You may need to run something like:
 
 ## Run development website
 
-    $ bundle exec middleman server
+    $ bin/middleman server
 
 Then visit `http://localhost:4567`.
 
 ## Publishing
 
-    $ bundle exec rake publish
+    $ bin/rake publish
 
 Git branch 'gh-pages' now holds the publishable version of TryRuby, accessible
 via [try.ruby-lang.org/](https://try.ruby-lang.org/).
@@ -61,7 +78,7 @@ for more background information on how and why this website was created.
 
 ## The MIT License
 
-Copyright (C) 2014-2019 Ivo Herweijer
+Copyright (C) 2014-2024 Ivo Herweijer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

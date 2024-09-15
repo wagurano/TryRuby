@@ -34,8 +34,12 @@ Try Ruby version 3 by _Eric Allam & Nick Walsh_
 Try Ruby version 4 by _Ivo Herweijer_  
 
 This website is partially based on <a href="http://opalrb.com/" target="_blank">OpalRb.com</a>
-by _Adam Beynon_,
-and uses <a href="http://glyphicons.com/" target="_blank">Gyphicons</a>.
+by _Adam Beynon_.
+
+Fox illustration by _\_why the lucky stiff_.
+
+Language icon [by Ionicons](https://github.com/ionic-team/ionicons) under the
+MIT license.
 
 ### Translations
 
@@ -46,6 +50,10 @@ Japanese translation by _Koji Shimada_ & _Masayoshi Takahashi_
 Russian translation by _Alexander Nikolaev_  
 Ukrainian translation by _Andrii Palchik_  
 Macedonian translation by _Violeta Pavleska_  
+Chinese translation by _Ye Junzhe_ & _Heng Li_ & _Bitfox_  
+Turkish translation by _Ali Rıza Şahin_  
+French translation by _Olivier Lacan_ & _Idris TAKERBOUST_  
+
 
 ### Privacy
 

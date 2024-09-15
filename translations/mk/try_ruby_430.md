@@ -1,7 +1,7 @@
 ---
 lang:   МК
 title:  И сега, зачудувачкиот крај
-answer: не е еднакво 100$
+answer: не е еднакво на 100$
 ok:     Тоа е супер!
 error:  Ова не може да биде точно
 ---
@@ -30,4 +30,4 @@ error:  Ова не може да биде точно
 __if тест-изразот__ ќе биде неточен, односно false.
 
 > Има повеќе варијации на if-then-else тема. Можеш да прочиташ повеќе
-> <a href="http://www.ruby-doc.org/core/doc/syntax/control_expressions_rdoc.html" target="_blank">тука</a>.
+> <a href="http://www.ruby-doc.org/core/syntax/control_expressions_rdoc.html" target="_blank">тука</a>.
